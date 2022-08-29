@@ -16,6 +16,4 @@
 project/db-data/
 
 # Executable files
-**/authApp
-**/brokerApp
-**/frontApp
+**/*App
