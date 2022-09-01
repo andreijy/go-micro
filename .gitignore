@@ -17,3 +17,6 @@ project/db-data/
 
 # Executable files
 **/*App
+
+# VSCode config
+**/.vscode/*

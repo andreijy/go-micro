@@ -47,9 +47,9 @@ services:
       MAIL_HOST: mailhog
       MAIL_PORT: 1025
       MAIL_ENCRYPTION: none
-      MAIL_USERNAME: ""
-      MAIL_PASSWORD: ""
-      FROM_NAME: "John Smith"
+      MAIL_USERNAME: ''
+      MAIL_PASSWORD: ''
+      FROM_NAME: 'John Smith'
       FROM_ADDRESS: john.smith@example.com
 
   postgres:
@@ -81,5 +81,5 @@ services:
   mailhog:
     image: 'mailhog/mailhog:latest'
     ports:
-      - '1025:1025'
-      - '8025:8025'
+      - '1025:1025' # mail port
+      - '8025:8025' # web port
