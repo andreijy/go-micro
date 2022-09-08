@@ -36,7 +36,7 @@ func New(mongo *mongo.Client) Models {
 func (l *LogEntry) Insert(entry LogEntry) error {
 	collection := client.Database("logs").Collection("logs")
 
-	//? can we use entry from the parameter ?//
+	// TODO can we use entry from the parameter? //
 	_, err := collection.InsertOne(context.TODO(), LogEntry{
 		Name:      entry.Name,
 		Data:      entry.Data,
