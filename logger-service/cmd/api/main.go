@@ -57,6 +57,8 @@ func main() {
 	}
 	go app.rpcListen()
 
+	go app.gRPCListen()
+
 	// start web server
 	app.serve()
 }
