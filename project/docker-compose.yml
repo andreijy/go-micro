@@ -76,7 +76,7 @@ services:
       - ./db-data/postgres/:/var/lib/postgresql/data/
 
   mongo:
-    image: 'mongo:4.2.16-bionic'
+    image: 'mongo:4.2.17-bionic'
     ports:
       - '27017:27017'
     environment:
@@ -95,7 +95,7 @@ services:
   rabbitmq:
     image: 'rabbitmq:3.10.7-alpine'
     ports:
-      - "5672:5672"
+      - '5672:5672'
     deploy:
       mode: replicated
       replicas: 1
