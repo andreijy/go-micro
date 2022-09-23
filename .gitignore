@@ -20,3 +20,6 @@ project/db-data/
 
 # VSCode config
 **/.vscode/*
+
+# Caddy config
+**/Caddyfile
