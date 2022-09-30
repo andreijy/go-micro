@@ -22,4 +22,7 @@ project/db-data/
 **/.vscode/*
 
 # Caddy config
-**/Caddyfile
+**/Caddyfile*
+
+# Production files
+**/*production*
